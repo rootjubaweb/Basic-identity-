@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Enrollment": {
+      "title": "Enrollment",
+      "description": "Saved Android Enterprise Enrollment Tokens and policies",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique record identifier"
+        },
+        "userId": {
+          "type": "string",
+          "description": "Firebase Auth UID of the owner"
+        },
+        "projectId": {
+          "type": "string",
+          "maxLength": 60,
+          "description": "Google Cloud Project ID"
+        },
+        "enterpriseName": {
+          "type": "string",
+          "maxLength": 120,
+          "description": "Generated enterprise resource name"
+        },
+        "enrollmentToken": {
+          "type": "string",
+          "maxLength": 256,
+          "description": "The Android Management API enrollment token string"
+        },
+        "policy": {
+          "type": "object",
+          "description": "Configured Android Management policy dictionary"
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "Optional notes or device target info"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "Creation timestamp"
+        }
+      },
+      "required": ["userId", "projectId", "enrollmentToken", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/enrollments/{enrollmentId}": {
+      "schema": "Enrollment",
+      "description": "Saved enrollment tokens and policies created by users"
+    }
+  }
+}

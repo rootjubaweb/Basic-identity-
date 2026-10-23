@@ -1,0 +1,6 @@
+{
+  "name": "Android Enterprise Token Master | مولد رمز المشرف",
+  "description": "أداة متقدمة وشاملة لتوليد رمز المشرف (Enrollment Token) وتجاوز شاشة إعداد ملف العمل في أندرويد مجاناً عبر Google Cloud و Android Management API مع مولد الأكواد ورموز QR وتخصيص السياسات.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
