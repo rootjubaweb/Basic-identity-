@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Enterprise Token Master | مولد رمز المشرف</string>
+    <string name="app_short_name">Token Master</string>
+    <string name="tagline">Google Android Management API · تجاوز إعداد ملف العمل</string>
+    <string name="hero_title">مولّد رمز المشرف لملف العمل في أندرويد</string>
+    <string name="hero_desc">أنشئ مؤسستك السحابية الافتراضية، وخصّص سياسات التطبيقات وقفل الشاشة، واستخرج رمز المشرف (Enrollment Token) الرسمي مجاناً لتجاوز شاشة إعداد ملف العمل على أي هاتف في دقائق.</string>
+</resources>
